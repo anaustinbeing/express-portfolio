@@ -3,7 +3,32 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Austin' });
+  res.render('content/index', { title: 'Home' });
+});
+
+/* GET home page. */
+router.get('/home', function(req, res, next) {
+  res.render('content/index', { title: 'Home' });
+});
+
+/* GET about me page. */
+router.get('/about', function(req, res, next) {
+  res.render('content/about', { title: 'About Me' });
+});
+
+/* GET projects page. */
+router.get('/projects', function(req, res, next) {
+  res.render('content/projects', { title: 'Projects' });
+});
+
+/* GET services page. */
+router.get('/services', function(req, res, next) {
+  res.render('content/index', { title: 'Services' });
+});
+
+/* GET contact me page. */
+router.get('/contact', function(req, res, next) {
+  res.render('content/index', { title: 'Contact Me' });
 });
 
 module.exports = router;
