@@ -3,12 +3,12 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('content/index', { title: 'Home' });
+  res.render('content/home', { title: 'Home' });
 });
 
 /* GET home page. */
 router.get('/home', function(req, res, next) {
-  res.render('content/index', { title: 'Home' });
+  res.render('content/home', { title: 'Home' });
 });
 
 /* GET about me page. */
@@ -23,12 +23,12 @@ router.get('/projects', function(req, res, next) {
 
 /* GET services page. */
 router.get('/services', function(req, res, next) {
-  res.render('content/index', { title: 'Services' });
+  res.render('content/services', { title: 'Services' });
 });
 
 /* GET contact me page. */
 router.get('/contact', function(req, res, next) {
-  res.render('content/index', { title: 'Contact Me' });
+  res.render('content/contact', { title: 'Contact Me' });
 });
 
 module.exports = router;
