@@ -1,3 +1,10 @@
+/**
+ * users.js
+ * Austin Joyal
+ * 301200483
+ * Oct 3, 2021
+ */
+
 var express = require('express');
 var router = express.Router();
 

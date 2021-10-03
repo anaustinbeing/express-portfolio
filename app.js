@@ -1,3 +1,10 @@
+/**
+ * app.js
+ * Austin Joyal
+ * 301200483
+ * Oct 3, 2021
+ */
+
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
